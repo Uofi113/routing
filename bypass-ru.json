@@ -1,4 +1,9 @@
 {
+  "_meta": {
+    "name": "bypass-ru",
+    "description": "RU/CIS traffic and local networks go direct, ads/trackers are blocked, censorship-prone global services are forced through the proxy, everything else defaults to proxy.",
+    "updated": "2026-09-09"
+  },
   "rules": [
     {
       "outbound": "direct",
@@ -15,13 +20,25 @@
         "domain:xn--p1ai",
         "domain:gosuslugi.ru",
         "domain:mos.ru",
+        "domain:nalog.ru",
         "domain:nalog.gov.ru",
+        "domain:cbr.ru",
+        "domain:sbis.ru",
+        "domain:pochta.ru",
         "domain:sberbank.ru",
+        "domain:sber.ru",
         "domain:tinkoff.ru",
         "domain:t-bank.ru",
         "domain:alfabank.ru",
         "domain:vtb.ru",
         "domain:raiffeisen.ru",
+        "domain:gazprombank.ru",
+        "domain:open.ru",
+        "domain:bank.otkritie.ru",
+        "domain:rosbank.ru",
+        "domain:sovcombank.ru",
+        "domain:psbank.ru",
+        "domain:mtsbank.ru",
         "domain:ozon.ru",
         "domain:wildberries.ru",
         "domain:market.yandex.ru",
@@ -30,10 +47,14 @@
         "domain:kinopoisk.ru",
         "domain:ivi.ru",
         "domain:okko.tv",
+        "domain:start.ru",
         "domain:vkplay.ru",
         "domain:2gis.ru",
         "domain:dzen.ru",
-        "domain:max.ru"
+        "domain:max.ru",
+        "domain:rutube.ru",
+        "domain:gismeteo.ru",
+        "domain:speedtest.selectel.ru"
       ]
     },
     {
@@ -46,7 +67,10 @@
     {
       "outbound": "block",
       "domains": [
-        "geosite:category-ads-all"
+        "geosite:category-ads-all",
+        "geosite:malware",
+        "geosite:phishing",
+        "geosite:cryptominers"
       ]
     },
     {
@@ -58,11 +82,15 @@
         "geosite:youtube",
         "geosite:discord",
         "geosite:telegram",
+        "geosite:whatsapp",
+        "geosite:reddit",
         "geosite:spotify",
         "geosite:openai",
         "geosite:claude",
         "geosite:notion",
-        "geosite:tiktok"
+        "geosite:tiktok",
+        "geosite:github",
+        "geosite:linkedin"
       ]
     },
     {
