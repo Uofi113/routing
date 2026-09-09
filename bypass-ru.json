@@ -8,8 +8,6 @@
   "DomesticDNSDomain": "",
   "DomesticDNSIP": "77.88.8.8",
   "DirectSites": [
-    "geosite:category-ru",
-    "geosite:mailru",
     "domain:ru",
     "domain:su",
     "domain:by",
@@ -22,6 +20,8 @@
     "domain:vk.com",
     "domain:vk.ru",
     "domain:vkontakte.ru",
+    "domain:mail.ru",
+    "domain:ok.ru",
     "domain:gosuslugi.ru",
     "domain:mos.ru",
     "domain:nalog.ru",
@@ -60,16 +60,11 @@
     "domain:gismeteo.ru",
     "domain:speedtest.selectel.ru"
   ],
-  "DirectIp": [
-    "geoip:ru",
-    "geoip:private"
-  ],
+  "DirectIp": [],
   "ProxySites": [],
   "ProxyIp": [],
-  "BlockSites": [
-    "geosite:category-ads-all"
-  ],
+  "BlockSites": [],
   "BlockIp": [],
-  "DomainStrategy": "IPIfNonMatch",
+  "DomainStrategy": "AsIs",
   "FakeDNS": "false"
 }
