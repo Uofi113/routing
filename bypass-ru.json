@@ -79,10 +79,7 @@
   ],
   "ProxyIp": [],
   "BlockSites": [
-    "geosite:category-ads-all",
-    "geosite:malware",
-    "geosite:phishing",
-    "geosite:cryptominers"
+    "geosite:category-ads-all"
   ],
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
