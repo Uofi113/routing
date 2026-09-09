@@ -1,8 +1,8 @@
 {
   "Name": "🇷🇺 РФ напрямую",
   "GlobalProxy": "true",
-  "RemoteDNSType": "DoH",
-  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "",
   "RemoteDNSIP": "1.1.1.1",
   "DomesticDNSType": "DoU",
   "DomesticDNSDomain": "",
